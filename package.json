@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./source/css/config.css -o ./source/css/estilos.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "preline": "^2.5.1"
+  }
+}
