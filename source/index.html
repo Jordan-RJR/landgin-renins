@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renins</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="whatsapp.css">
 </head>
 <body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51902679773&text=Hola%2C%20vengo%20de%20la%20landing%20page%20de%20Renins%2C%20quisiera%20que%20me%20asesores%20por%20favor%20🙂%20🙏" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
     <header class="bg-white dark:bg-gray-800">
         <nav class="bg-white dark:bg-gray-800">
             <div class="container p-6 mx-auto">
@@ -39,149 +46,42 @@
         <!-- End Col -->
         <div>
           <!-- Form -->
-          <form>
+          <form action="https://formsubmit.co/jordanraheljosueregaladoramos@gmail.com" method="POST">
             <div class="lg:max-w-lg lg:mx-auto lg:me-0 ms-auto">
-              <!-- Card -->
-              <div class="p-4 sm:p-7 flex flex-col bg-white rounded-2xl shadow-lg dark:bg-neutral-900">
-                <div class="text-center">
-                  <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">Contáctate con Nosotros</h1>
-                  <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
-                    <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">
-                      ¡Completa nuestro formulario y obtén un descuento del 10%!
-                    </a>
-                  </p>
+                <div class="p-4 sm:p-7 flex flex-col bg-white rounded-2xl shadow-lg">
+                    <div class="text-center">
+                        <h1 class="block text-2xl font-bold text-gray-800">Contáctate con Nosotros</h1>
+                        <p class="mt-2 text-sm text-gray-600">
+                            <a class="text-blue-600 hover:underline" href="#">
+                                ¡Completa nuestro formulario y obtén un cupón del 10% de descuento!
+                            </a>
+                        </p>
+                    </div>
+                    <div class="mt-5 grid grid-cols-2 gap-4">
+                        <div>
+                            <input required type="text" name="name" class="peer p-4 w-full border-gray-200 rounded-lg" placeholder="Nombre">
+                        </div>
+                        <div>
+                            <input required type="text" name="apellido" class="peer p-4 w-full border-gray-200 rounded-lg" placeholder="Apellidos">
+                        </div>
+                        <div>
+                            <input required type="email" name="email" class="peer p-4 w-full border-gray-200 rounded-lg" placeholder="Correo Electrónico">
+                        </div>
+                        <div>
+                            <input required type="text" name="telefono" class="peer p-4 w-full border-gray-200 rounded-lg" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <div class="mt-5 flex items-center">
+                        <input required id="terminos" name="terms" type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded">
+                        <label for="terminos" class="ms-3 text-sm">Acepto los <a class="text-blue-600 hover:underline" href="#">Términos y Condiciones</a></label>
+                    </div>
+                    <div class="mt-5">
+                        <button type="submit" class="w-full py-3 px-4 bg-blue-600 text-white rounded-lg">ENVIAR</button>
+                    </div>
                 </div>
-  
-                <div class="mt-5">
-                  <!-- Grid -->
-                  <div class="grid grid-cols-2 gap-4">
-                    <!-- Input Group -->
-                    <div>
-                      <!-- Floating Input -->
-                      <div class="relative">
-                        <input type="text" id="hs-hero-signup-form-floating-input-first-name" class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600
-                        focus:pt-6
-                        focus:pb-2
-                        [&:not(:placeholder-shown)]:pt-6
-                        [&:not(:placeholder-shown)]:pb-2
-                        autofill:pt-6
-                        autofill:pb-2" placeholder="John">
-                        <label for="hs-hero-signup-form-floating-input-first-name" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                          peer-focus:scale-90
-                          peer-focus:translate-x-0.5
-                          peer-focus:-translate-y-1.5
-                          peer-focus:text-gray-500 dark:peer-focus:text-neutral-500
-                          peer-[:not(:placeholder-shown)]:scale-90
-                          peer-[:not(:placeholder-shown)]:translate-x-0.5
-                          peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                          peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500">Nombre</label>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="relative">
-                        <input type="text" id="hs-hero-signup-form-floating-input-last-name" class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600
-                        focus:pt-6
-                        focus:pb-2
-                        [&:not(:placeholder-shown)]:pt-6
-                        [&:not(:placeholder-shown)]:pb-2
-                        autofill:pt-6
-                        autofill:pb-2" placeholder="Doe">
-                        <label for="hs-hero-signup-form-floating-input-last-name" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                          peer-focus:scale-90
-                          peer-focus:translate-x-0.5
-                          peer-focus:-translate-y-1.5
-                          peer-focus:text-gray-500 dark:peer-focus:text-neutral-500
-                          peer-[:not(:placeholder-shown)]:scale-90
-                          peer-[:not(:placeholder-shown)]:translate-x-0.5
-                          peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                          peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500">Apellidos</label>
-                      </div>
-                    </div>
-                    <div>
-                      <!-- Floating Input -->
-                      <div class="relative">
-                        <input type="email" id="hs-hero-signup-form-floating-input-email" class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600
-                        focus:pt-6
-                        focus:pb-2
-                        [&:not(:placeholder-shown)]:pt-6
-                        [&:not(:placeholder-shown)]:pb-2
-                        autofill:pt-6
-                        autofill:pb-2" placeholder="you@email.com">
-                        <label for="hs-hero-signup-form-floating-input-email" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                          peer-focus:scale-90
-                          peer-focus:translate-x-0.5
-                          peer-focus:-translate-y-1.5
-                          peer-focus:text-gray-500 dark:peer-focus:text-neutral-500
-                          peer-[:not(:placeholder-shown)]:scale-90
-                          peer-[:not(:placeholder-shown)]:translate-x-0.5
-                          peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                          peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500">Correo electrónico</label>
-                      </div>
-                      <!-- End Floating Input -->
-                    </div>
-                    <div>
-                      <div class="relative">
-                        <input type="text" id="hs-hero-signup-form-floating-input-company-name" class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600
-                        focus:pt-6
-                        focus:pb-2
-                        [&:not(:placeholder-shown)]:pt-6
-                        [&:not(:placeholder-shown)]:pb-2
-                        autofill:pt-6
-                        autofill:pb-2" placeholder="Preline">
-                        <label for="hs-hero-signup-form-floating-input-company-name" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                          peer-focus:scale-90
-                          peer-focus:translate-x-0.5
-                          peer-focus:-translate-y-1.5
-                          peer-focus:text-gray-500 dark:peer-focus:text-neutral-500
-                          peer-[:not(:placeholder-shown)]:scale-90
-                          peer-[:not(:placeholder-shown)]:translate-x-0.5
-                          peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                          peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500">Teléfono</label>
-                      </div>
-                    </div>
-                    <div class="relative col-span-full">
-                      <div class="relative">
-                        <select class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600
-                        focus:pt-6
-                        focus:pb-2
-                        [&:not(:placeholder-shown)]:pt-6
-                        [&:not(:placeholder-shown)]:pb-2
-                        autofill:pt-6
-                        autofill:pb-2">
-                            <option value="producto">Elegir Producto</option>
-                            <option value="mochila">Mochila</option>
-                            <option value="cartera">Cartera</option>
-                            <option value="cartucheras">Cartuchera</option>
-                        </select>
-                        <label for="hs-hero-signup-form-floating-input-new-password" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none
-                          peer-focus:scale-90
-                          peer-focus:translate-x-0.5
-                          peer-focus:-translate-y-1.5
-                          peer-focus:text-gray-500 dark:peer-focus:text-neutral-500
-                          peer-[:not(:placeholder-shown)]:scale-90
-                          peer-[:not(:placeholder-shown)]:translate-x-0.5
-                          peer-[:not(:placeholder-shown)]:-translate-y-1.5
-                          peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500">Producto</label>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="mt-5 flex items-center">
-                    <div class="flex">
-                      <input id="remember-me" name="remember-me" type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800">
-                    </div>
-                    <div class="ms-3">
-                      <label for="remember-me" class="text-sm dark:text-white">Acepto los <a class="text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="#">Terminos y Condiciones</a></label>
-                    </div>
-                  </div>
-  
-                  <div class="mt-5">
-                    <button type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">Solicitar Cotización</button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </form>
+        </form>
+        
         </div>
       </div>
     </div>
@@ -428,20 +328,48 @@
     <!-- End Grid -->
   </footer>
   <!-- ========== END FOOTER ========== -->
+
+  <script src="../node_modules/preline/dist/preline.js"></script>
+
+  <script>
+    document.querySelector("form").addEventListener("submit", function (event) {
+      // Prevenir que el formulario se envíe realmente
+      event.preventDefault();
+  
+      // Seleccionar el contenedor del texto promocional
+      const promoText = document.querySelector(".text-center p"); // Reemplaza el selector según tu estructura
+  
+      // Verificar si ya existe el mensaje
+      let existingMessage = document.querySelector("#discount-message");
+      if (!existingMessage) {
+        // Crear el mensaje y añadirlo al DOM
+        const message = document.createElement("p");
+        message.id = "discount-message";
+        message.textContent = "Tu cupón de descuento es: FORMULARIO100";
+        message.className = "mt-2 text-sm text-green-600 font-medium";
+  
+        // Insertar el mensaje justo debajo del texto promocional
+        promoText.insertAdjacentElement("afterend", message);
+      }
+    });
+  </script>
+  
+  
     
-    <script src="../node_modules/preline/dist/preline.js"></script>
-    <script type="text/javascript">
-      (function(d, t) {
-          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-          v.onload = function() {
-            window.voiceflow.chat.load({
-              verify: { projectID: '67421db2a4ee84b45ac60a77' },
-              url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production'
-            });
-          }
-          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-      })(document, 'script');
-    </script>
+  <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '6743e9fdbf1039db0b33b66c' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+
+  <script></script>
 </body>
 </html>
